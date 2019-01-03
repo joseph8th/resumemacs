@@ -2,8 +2,13 @@ TAGS
 
 *~
 *#*
+*.log
 man/
 tmp/
 sync/
 output*/
 resume/
+example/*.pdf
+example/*.tex
+example/*.odt
+example/*.html
