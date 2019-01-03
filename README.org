@@ -81,6 +81,6 @@ Open =output/resume.html= in your browser to work on the style, and view =output
 
 * Acknowledgments
 
-- Pandoc templates based on [Pandoc default templates](https://github.com/jgm/pandoc-templates).
+- Pandoc templates based on [[https://github.com/jgm/pandoc-templates][Pandoc default templates]].
 
-- Org-mode to LaTEX template based on [this org-mode résumé template](https://github.com/punchagan/resume) by Puneeth Chagati.
+- Org-mode to LaTEX template based on [[https://github.com/punchagan/resume][this org-mode résumé template]] by Puneeth Chagati.
