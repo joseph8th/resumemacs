@@ -14,6 +14,23 @@
 {{{SUBTITLEROWS}}}
 {{{HEADER}}}
 
+* Compile All (Default)                                             :noexport:
+
+H/T to [[https://github.com/joseph8th/resumemacs/issues/1][drkmrin78]] for compiling from this file.
+
+Make sure =ob-sh= babel is installed. Then add this to your =init.el= and =eval-buffer= (or just move cursor into the code block and do a =C-c C-c=):
+
+#+begin_src emacs-lisp
+(org-babel-do-load-languages 'org-babel-load-languages '((shell . t)))
+#+end_src
+
+Change the paths below to match your resume.org path. Then move your cursor into the code block and do a =C-c C-c=:
+
+#+begin_src sh
+cd ..
+./resumemacs ./resume/resume.org -d output
+#+end_src
+
 * Summary
 
 Full-stack software engineer. Python/PHP backend processing, services and tool development. Linux and Windows standalone application development. Distributable compiled remote solutions with rigid RESTful or JSON API implementation. Experience with database modeling using both ORM or custom models. Responsive frontend HTML5 views and custom or framework-based JavaScript data-binding methodologies. AJAX and websocket experience. Integration of external SOAP and RESTful API data sources. Concurrent processing and message queues.
