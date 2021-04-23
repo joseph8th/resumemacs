@@ -195,7 +195,7 @@ function make_odt {
         --from=latex \
         --to=odt \
         --template="$ODT_BASE_TEMPLATE" \
-        --reference-odt="$ODT_REFERENCE" \
+        --reference-doc="$ODT_REFERENCE" \
         --include-before-body="$header_file" \
         --output="$target_file" \
         "$src_file"
